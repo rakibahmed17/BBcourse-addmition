@@ -1,0 +1,65 @@
+[
+    {
+        "cover": "https://i.postimg.cc/DyFMCXQv/Rectangle-2.png",
+        "course_name": "Introduction to Web Development",
+        "details": "Learn the fundamentals of HTML, CSS, and JavaScript to build your first website.",
+        "price": 29.99,
+        "credits": 3
+    },
+    {
+        "cover": "https://i.postimg.cc/VNjtHdWw/Rectangle-2-1.png",
+        "course_name": "Data Science Essentials",
+        "details": "Explore the basics of data analysis, statistical concepts, and machine learning algorithms.",
+        "price": 49.99,
+        "credits": 4
+    },
+    {
+        "cover": "https://i.postimg.cc/vTSx69br/Rectangle-2-2.png",
+        "course_name": "Digital Marketing Mastery",
+        "details": "Master online marketing strategies, including SEO, social media, and email campaigns.",
+        "price": 39.99,
+        "credits": 3
+    },
+    {
+        "cover": "https://i.postimg.cc/vTSx69br/Rectangle-2-2.png",
+        "course_name": "Mobile App Development with React Native",
+        "details": "Build cross-platform mobile apps using React Native and explore app deployment.",
+        "price": 59.99,
+        "credits": 4
+    },
+    {
+        "cover": "https://i.postimg.cc/Hs9sKXfB/Rectangle-2-3.png",
+        "course_name": "Graphic Design Fundamentals",
+        "details": "Learn the basics of graphic design, including color theory, typography, and design tools.",
+        "price": 34.99,
+        "credits": 3
+    },
+    {
+        "cover": "https://i.postimg.cc/yxzsp8jM/Rectangle-2-4.png",
+        "course_name": "Financial Planning and Investment Strategies",
+        "details": "Understand key financial concepts, investment strategies, and retirement planning.",
+        "price": 44.99,
+        "credits": 4
+    },
+    {
+        "cover": "https://i.postimg.cc/GtQwMJHD/Rectangle-2-5.png",
+        "course_name": "Cybersecurity Basics",
+        "details": "Explore cybersecurity fundamentals, including encryption, network security, and ethical hacking.",
+        "price": 49.99,
+        "credits": 4
+    },
+    {
+        "cover": "https://i.postimg.cc/MK68n4Fm/Rectangle-2-6.png",
+        "course_name": "Artificial Intelligence for Beginners",
+        "details": "An introduction to AI concepts, machine learning, and practical applications.",
+        "price": 54.99,
+        "credits": 5
+    },
+    {
+        "cover": "https://i.postimg.cc/DwSHsKdL/Rectangle-3.png",
+        "course_name": "Creative Writing Workshop",
+        "details": "Unlock your creativity through writing exercises, workshops, and peer feedback.",
+        "price": 29.99,
+        "credits": 3
+    }
+]
