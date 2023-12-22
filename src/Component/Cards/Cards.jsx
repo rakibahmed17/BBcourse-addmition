@@ -1,7 +1,8 @@
 import {useEffect, useState} from "react";
 import Card from "../Card/Card";
+import PropTypes from "prop-types";
 
-const Cards = () => {
+const Cards = ({handleToCourseName}) => {
     const [cards, setCards] = useState([]);
     useEffect(() => {
         fetch("Cards.json")
@@ -10,17 +11,19 @@ const Cards = () => {
     }, []);
 
     return (
-        <div className=" flex max-w-7xl mx-auto py-10">
-            <div className=" grid grid-cols-3 gap-5 mr-8">
-                {cards.map((card) => (
-                    <Card key={card.idx} card={card}></Card>
+        <div className="max-w-6xl mx-auto py-10">
+            <div className="grid grid-cols-3 align-baseline gap-5 mr-8">
+                {cards.map((card, idx) => (
+                    <Card key={idx} handleToCourseName={handleToCourseName} card={card}></Card>
                 ))}
             </div>
-            <div className="w-1/4 p-6 bg-slate-700 ">
-                <h1 className="text-3xl font-bold">course name</h1>
+            <div className=" bg-green-700 ">
+                <h1 ></h1>
             </div>
         </div>
     );
 };
-
+Cards.propTypes = {
+    handleToCourseName: PropTypes.func,
+};
 export default Cards;
