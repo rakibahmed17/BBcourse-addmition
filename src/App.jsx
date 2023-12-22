@@ -14,7 +14,7 @@ function App() {
         <>
             <div>
                 <Header></Header>
-                <div className="  md: flex  max-w-6xl mx-auto">
+                <div className="md:flex max-w-6xl mx-auto">
                     <Cards handleToCourseName={handleToCourseName}></Cards>
                     <Courses courses={courses}></Courses>
                 </div>
